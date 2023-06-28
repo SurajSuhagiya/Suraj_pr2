@@ -4,8 +4,7 @@
 #include<conio.h>
 
 void main(){
-float units,totalamount;
-float bill,u,i;
+float bill,a,b;
 
 clrscr();
 printf("--------------------------------------------------------------\n");
@@ -35,8 +34,8 @@ if(bill<=50){
          a=(25 + 75 + 120 + (bill - 250 )*1.50);
        }
 
-f =a +a*0.2 ;    
-printf(   "Electricity Bill = Rs.  %.1f",f);
+b =a+a*0.2 ;    
+printf("Electricity Bill = Rs.  %.1f",b);
 return 0;
 getch();    
 }
